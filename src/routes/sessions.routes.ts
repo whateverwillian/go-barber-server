@@ -5,17 +5,13 @@ import AuthenticateUserService from '../services/AuthenticateUserService';
 const routes = Router();
 
 routes.post('/', async (request, response) => {
-  try {
-    const { email, password } = request.body;
+  const { email, password } = request.body;
 
-    const AuthenticateUser = new AuthenticateUserService();
+  const AuthenticateUser = new AuthenticateUserService();
 
-    const { user, token } = await AuthenticateUser.execute({ email, password });
+  const { user, token } = await AuthenticateUser.execute({ email, password });
 
-    response.json({ user, token });
-  } catch (err) {
-    response.status(400).json({ error: err.message });
-  }
+  response.json({ user, token });
 });
 
 export default routes;
