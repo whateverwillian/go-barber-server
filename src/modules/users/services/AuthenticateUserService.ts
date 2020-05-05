@@ -2,7 +2,6 @@ import { compare } from 'bcryptjs';
 import { sign } from 'jsonwebtoken';
 import { injectable, inject } from 'tsyringe';
 
-import User from '@modules/users/infra/typeorm/entities/userModel';
 import authConfig from '@config/auth';
 import AppError from '@shared/errors/AppError';
 
@@ -14,7 +13,10 @@ interface IRequest {
 }
 
 interface IResponse {
-  user: User;
+  user: {
+    name: string;
+    email: string;
+  };
   token: string;
 }
 
@@ -38,8 +40,6 @@ class AuthenticateUserService {
       throw new AppError('Invalid email or password', 401);
     }
 
-    delete user.password;
-
     const { secret, expiresIn } = authConfig.jwt;
 
     const token = sign({}, secret, {
@@ -47,7 +47,7 @@ class AuthenticateUserService {
       expiresIn,
     });
 
-    return { user, token };
+    return { user: { name: user.name, email: user?.email }, token };
   }
 }
 
