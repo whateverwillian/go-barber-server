@@ -23,7 +23,7 @@ describe('ForgotPassword', () => {
     );
   });
 
-  it('should be able to reset the password', async () => {
+  it('should be able to send reset email', async () => {
     const sendMail = jest.spyOn(mailProvider, 'sendMail');
 
     await fakeUserRepository.create({
