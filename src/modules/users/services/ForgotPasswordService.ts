@@ -29,9 +29,9 @@ class CreateUserService {
 
     if (!user) throw new AppError('User does not exist', 404);
 
-    this.tokenRepository.generate(user.id);
+    await this.tokenRepository.generate(user.id);
 
-    this.mailProvider.sendMail(email, 'Redefina sua senha');
+    await this.mailProvider.sendMail(email, 'Redefina sua senha');
   }
 }
 

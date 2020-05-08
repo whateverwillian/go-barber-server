@@ -8,7 +8,10 @@ interface IRequest {
   res: Response;
 }
 
-async function ForgotPasswordController({ req, res }: IRequest): Promise<void> {
+async function ForgotPasswordController(
+  req: Request,
+  res: Response,
+): Promise<void> {
   const { email } = req.body;
 
   const forgotPasswordService = container.resolve(ForgotPasswordService);
