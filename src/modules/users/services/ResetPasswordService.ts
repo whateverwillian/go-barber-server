@@ -40,6 +40,8 @@ class ResetPasswordService {
 
     user.password = await this.hashProvider.generateHash(password);
     this.userRepository.save(user);
+
+    await this.tokenRepository.delete(userToken.id);
   }
 }
 
