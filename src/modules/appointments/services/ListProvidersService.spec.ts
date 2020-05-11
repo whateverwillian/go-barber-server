@@ -9,6 +9,7 @@ let listProvider: ListProvidersService;
 describe('ListProviders', () => {
   beforeEach(() => {
     fakeRepository = new FakeRepository();
+    listProvider = new ListProvidersService(fakeRepository);
   });
 
   it('should be able to list providers', async () => {
