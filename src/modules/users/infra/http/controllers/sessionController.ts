@@ -1,5 +1,6 @@
 import { Request, Response } from 'express';
 import { container } from 'tsyringe';
+import { classToClass } from 'class-transformer';
 
 import AuthenticateUserService from '@modules/users/services/AuthenticateUserService';
 
@@ -13,5 +14,5 @@ export async function create(
 
   const { user, token } = await AuthenticateUser.execute({ email, password });
 
-  return response.json({ user, token });
+  return response.json({ user: classToClass(user), token });
 }
