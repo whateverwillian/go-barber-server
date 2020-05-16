@@ -1,8 +1,9 @@
-import { startOfHour, isBefore, getHours } from 'date-fns';
+import { startOfHour, isBefore, getHours, format } from 'date-fns';
 import { injectable, inject } from 'tsyringe';
 
 import Appointment from '@modules/appointments/infra/typeorm/entities/appointmentModel';
 import AppError from '@shared/errors/AppError';
+import INotificationRepository from '@modules/notifications/repositories/INotificationsRepository';
 import { IAppointmentRepository } from '../repositories/IAppointmentRepository';
 
 interface IRequest {
@@ -16,6 +17,9 @@ class CreateAppointment {
   constructor(
     @inject('AppointmentRepository')
     private appointmentRepository: IAppointmentRepository,
+
+    @inject('NotificationRepository')
+    private notificationRepository: INotificationRepository,
   ) {}
 
   public async execute({
@@ -48,6 +52,16 @@ class CreateAppointment {
       provider_id,
       user_id,
       date: appointmentDate,
+    });
+
+    const dateThatNormalHumansUse = format(
+      appointmentDate,
+      "dd/MM/yyyy 'às' HH:mm'h'",
+    );
+
+    await this.notificationRepository.create({
+      content: `Um novo agendamento foi marcado para ${dateThatNormalHumansUse}`,
+      user_id: provider_id,
     });
 
     return newAppointment;

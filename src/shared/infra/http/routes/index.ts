@@ -9,10 +9,10 @@ import ProviderRouter from '@modules/appointments/infra/http/routes/providers.ro
 
 const routes = Router();
 
+routes.use('/password', PasswordRouter);
 routes.use('/appointments', AppointmentsRouter);
 routes.use('/users', UsersRouter);
 routes.use('/sessions', SessionsRouter);
-routes.use('/password', PasswordRouter);
 routes.use('/profile', ProfileRouter);
 routes.use('/providers', ProviderRouter);
 
