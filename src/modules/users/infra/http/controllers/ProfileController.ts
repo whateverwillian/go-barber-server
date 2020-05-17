@@ -34,7 +34,5 @@ export async function showProfile(req: Request, res: Response): Promise<void> {
     user_id,
   });
 
-  delete user.password;
-
-  res.json(user);
+  res.json(classToClass(user));
 }

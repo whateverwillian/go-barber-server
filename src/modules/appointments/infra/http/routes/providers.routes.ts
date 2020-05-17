@@ -15,7 +15,7 @@ const providerIdValidation = celebrate({
   },
 });
 
-routes.get('/', ProviderController);
+routes.get('/', ensureAuthenticated, ProviderController);
 routes.get(
   '/:provider_id/day-availability',
   ensureAuthenticated,
