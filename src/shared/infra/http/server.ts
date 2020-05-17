@@ -7,6 +7,7 @@ import cors from 'cors';
 import { errors } from 'celebrate';
 
 import AppError from '@shared/errors/AppError';
+import ratelimiter from '@shared/infra/http/middlewares/rateLimiter';
 import routes from './routes/index';
 
 import '@shared/infra/typeorm';
@@ -14,6 +15,7 @@ import '@shared/container';
 
 const app = express();
 
+app.use(ratelimiter);
 app.use(cors());
 app.use(express.json());
 app.use(routes);
