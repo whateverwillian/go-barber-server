@@ -8,14 +8,14 @@ export default async function MonthAvailabilityController(
   response: Response,
 ): Promise<Response> {
   const { provider_id } = request.params;
-  const { month, year } = request.body;
+  const { month, year } = request.query;
 
   const listMonthAvailability = container.resolve(ListMonthAvailability);
 
   const availability = await listMonthAvailability.execute({
     provider_id,
-    month,
-    year,
+    month: Number(month),
+    year: Number(year),
   });
 
   return response.json(availability);
