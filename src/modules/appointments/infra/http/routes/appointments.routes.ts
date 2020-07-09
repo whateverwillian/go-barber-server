@@ -18,6 +18,6 @@ routes.post(
   }),
   appointmentController.create,
 );
-routes.post('/me', ensureAuthenticated, providerAppointmentController);
+routes.get('/me', ensureAuthenticated, providerAppointmentController);
 
 export default routes;

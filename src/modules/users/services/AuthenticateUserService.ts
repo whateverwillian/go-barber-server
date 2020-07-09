@@ -14,8 +14,10 @@ interface IRequest {
 
 interface IResponse {
   user: {
+    id: string;
     name: string;
     email: string;
+    avatar_url: string;
   };
   token: string;
 }
@@ -52,7 +54,15 @@ class AuthenticateUserService {
       expiresIn,
     });
 
-    return { user: { name: user.name, email: user?.email }, token };
+    return {
+      user: {
+        id: user.id,
+        name: user.name,
+        email: user.email,
+        avatar_url: user.avatar,
+      },
+      token,
+    };
   }
 }
 

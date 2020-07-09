@@ -35,7 +35,7 @@ class UpdateUserAvatarService {
 
     const filename = await this.storageProvider.saveFile(avatar_filename);
 
-    user.avatar = filename;
+    user.avatar = `http://localhost:3333/files/${filename}`;
 
     await this.userRepository.save(user);
 
