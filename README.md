@@ -32,9 +32,9 @@
   * [Pré-requisitos](#pré-requisitos)
   * [Instalação](#instalação)
 * [Rotas da aplicação](#fire-rotas-da-aplicação)
-* [Como contribuir?](#smiling_face_with_smiling_eyes_and_three_hearts-como-contribuir?)
+* [Como contribuir?](#bug-como-contribuir?)
 * [Licença](#closed_book-licença)
-* [Contatos](#sleuth_or_spy-contatos)
+* [Contatos](#heart_eyes-contatos)
 
 
 <!-- ABOUT THE PROJECT -->
@@ -168,7 +168,7 @@ GET appointments/me - Caso você seja um provedor, pega seus serviços agendados
 ```
 
 <!-- CONTRIBUTING -->
-## :smiling_face_with_smiling_eyes_and_three_hearts: Como contribuir?
+## :bug: Como contribuir?
 
 Contribuir é o que faz a comunidade open source um lugar tão incrível para aprender, inspirar e criar. Qualquer contribuição é **apreciada**.
 
@@ -183,7 +183,7 @@ Contribuir é o que faz a comunidade open source um lugar tão incrível para ap
 Distribuído sob licença MIT.
 
 <!-- CONTACT -->
-## :sleuth_or_spy: Contatos
+## :heart_eyes: Contatos
 
 Willian tavares - [https://www.linkedin.com/in/whateverwill](https://www.linkedin.com/in/whateverwill) - willianliketavares@gmail.com
 
