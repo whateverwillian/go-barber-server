@@ -26,15 +26,15 @@
 <!-- TABLE OF CONTENTS -->
 ## 📌 Referência
 
-* [Sobre o projeto](#🚀-sobre-o-projeto)
+* [Sobre o projeto](#rocket-sobre-o-projeto)
   * [Tecnologias utilizadas](#tecnologias-utilizadas)
-* [Getting started](#🌈-getting-started)
+* [Getting started](#rainbow-getting-started)
   * [Pré-requisitos](#pré-requisitos)
   * [Instalação](#instalação)
-* [Rotas da aplicação](#🔥-rotas-da-aplicação)
-* [Como contribuir?](#🥰-como-contribuir?)
-* [Licença](#📕-licença)
-* [Contatos](#🕵-contatos)
+* [Rotas da aplicação](#fire-rotas-da-aplicação)
+* [Como contribuir?](#smiling_face_with_smiling_eyes_and_three_hearts-como-contribuir?)
+* [Licença](#closed_book-licença)
+* [Contatos](#sleuth_or_spy-contatos)
 
 
 <!-- ABOUT THE PROJECT -->
