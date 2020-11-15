@@ -32,7 +32,7 @@
   * [Pré-requisitos](#pré-requisitos)
   * [Instalação](#instalação)
 * [Rotas da aplicação](#fire-rotas-da-aplicação)
-* [Como contribuir?](#bug-como-contribuir?)
+* [Como contribuir?](#bug-como-contribuir)
 * [Licença](#closed_book-licença)
 * [Contatos](#heart_eyes-contatos)
 
@@ -133,36 +133,36 @@ REDIS_PASS=senha
 ## :fire: Rotas da aplicação
 
 * Users
-```JS
+```sh
 POST users - criar um usuário
 PATCH users/avatar - atualizar o avatar
 ```
 * Profile
-```JS
+```sh
 GET profiles - mostra seu perfil
 PUT profiles/update - atualiza informações do perfil
 ```
 
 * Password
-```JS
+```sh
 POST passwords/forgot - Esqueci minha senha
 POST passwords/reset - Insere uma nova senha
 ```
 
 * Sessions
-```JS
+```sh
 POST sessions - Faz login
 ```
 
 * Providers
-```JS
+```sh
 GET providers - Lista os provedores de serviço
 GET providers/:provider_id/day-availability - Pega a disponibilidade do provider pra um dia
 GET providers/:provider_id/month-availability - Pega a disponibilidade do provider para o mês
 ```
 
 * Appointments
-```JS
+```sh
 POST appointments - Cria um agendamento
 GET appointments/me - Caso você seja um provedor, pega seus serviços agendados
 ```
@@ -203,6 +203,4 @@ Project Link: [https://github.com/whateverwillian/go-barber-server](https://gith
 [license-shield]: https://img.shields.io/github/license/whateverwillian/go-barber-server?style=flat-square
 [license-url]: https://github.com/whateverwillian/go-barber-server/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/whateverwill
 [linkedin-url]: https://linkedin.com/in/whateverwill
-[product-screenshot]: images/screenshot.png
