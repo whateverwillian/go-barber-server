@@ -32,7 +32,7 @@
   * [Pré-requisitos](#pré-requisitos)
   * [Instalação](#instalação)
 * [Rotas da aplicação](#fire-rotas-da-aplicação)
-* [Como contribuir?](#tada-como-contribuir?)
+* [Como contribuir?](#bug-como-contribuir?)
 * [Licença](#closed_book-licença)
 * [Contatos](#heart_eyes-contatos)
 
