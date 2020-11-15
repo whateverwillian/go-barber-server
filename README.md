@@ -6,7 +6,8 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <br />
-<p style="background-color:black" align="center">
+<div style="background-color: black; padding: 20px; margin-bottom: 20px">
+<p align="center">
   <a href="https://github.com/whateverwillian/go-barber-server">
     <img src="images/logo.svg" alt="Logo" width="200" height="200">
   </a>
@@ -22,6 +23,7 @@
     <a href="https://github.com/whateverwillian/go-barber-server/issues">Pedir uma Feature</a>
   </p>
 </p>
+</div>
 
 
 
@@ -206,5 +208,6 @@ Project Link: [https://github.com/whateverwillian/go-barber-server](https://gith
 [license-shield]: https://img.shields.io/github/license/whateverwillian/go-barber-server?style=flat-square
 [license-url]: https://github.com/whateverwillian/go-barber-server/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/whateverwillian
+[linkedin-url]: https://www.linkedin.com/in/whateverwill
+[linkedin-url]: https://linkedin.com/in/whateverwill
 [product-screenshot]: images/screenshot.png
