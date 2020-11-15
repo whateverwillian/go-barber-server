@@ -6,7 +6,7 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <br />
-<p align="center">
+<p style="background-color:black" align="center">
   <a href="https://github.com/whateverwillian/go-barber-server">
     <img src="images/logo.svg" alt="Logo" width="200" height="200">
   </a>
@@ -16,14 +16,10 @@
   <p align="center">
     Backend do aplicativo Go Barber feito com nodeJS e TypeScript
     <br />
-    <a href="https://github.com/whateverwillian/go-barber-server"><strong>Explore the docs »</strong></a>
     <br />
-    <br />
-    <a href="https://github.com/whateverwillian/go-barber-server">View Demo</a>
+    <a href="https://github.com/whateverwillian/go-barber-server/issues">Reportar um Bug</a>
     ·
-    <a href="https://github.com/whateverwillian/go-barber-server/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/whateverwillian/go-barber-server/issues">Request Feature</a>
+    <a href="https://github.com/whateverwillian/go-barber-server/issues">Pedir uma Feature</a>
   </p>
 </p>
 
@@ -175,7 +171,7 @@ GET appointments/me - Caso você seja um provedor, pega seus serviços agendados
 ```
 
 <!-- CONTRIBUTING -->
-## 🤝 Como contribuir?
+## 🥰 Como contribuir?
 
 Contribuir é o que faz a comunidade open source um lugar tão incrível para aprender, inspirar e criar. Qualquer contribuição é **apreciada**.
 
@@ -196,3 +192,19 @@ Willian tavares - [https://www.linkedin.com/in/whateverwill](https://www.linkedi
 
 Project Link: [https://github.com/whateverwillian/go-barber-server](https://github.com/whateverwillian/go-barber-server)
 
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/whateverwillian/go-barber-server?style=flat-square
+[contributors-url]: https://github.com/whateverwillian/go-barber-server/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/whateverwillian/go-barber-server?style=flat-square
+[forks-url]: https://github.com/whateverwillian/go-barber-server/network/members
+[stars-shield]: https://img.shields.io/github/stars/whateverwillian/go-barber-server?style=flat-square
+[stars-url]: https://github.com/whateverwillian/go-barber-server/stargazers
+[issues-shield]: https://img.shields.io/github/issues/whateverwillian/go-barber-server?style=flat-square
+[issues-url]: https://github.com/whateverwillian/go-barber-server/issues
+[license-shield]: https://img.shields.io/github/license/whateverwillian/go-barber-server?style=flat-square
+[license-url]: https://github.com/whateverwillian/go-barber-server/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/whateverwillian
+[product-screenshot]: images/screenshot.png
