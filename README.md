@@ -6,13 +6,12 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <br />
-<div style="background-color: black; padding: 20px; margin-bottom: 20px">
 <p align="center">
   <a href="https://github.com/whateverwillian/go-barber-server">
     <img src="images/logo.svg" alt="Logo" width="200" height="200">
   </a>
 
-  <h3 align="center">Go Barber Server</h3>
+  <h3 align="center">GoBarber Server</h3>
 
   <p align="center">
     Backend do aplicativo Go Barber feito com nodeJS e TypeScript
@@ -23,23 +22,19 @@
     <a href="https://github.com/whateverwillian/go-barber-server/issues">Pedir uma Feature</a>
   </p>
 </p>
-</div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 ## 📌 Referência
 
-* [Sobre o projeto](#sobre-o-projeto)
+* [Sobre o projeto](#🚀-sobre-o-projeto)
   * [Tecnologias utilizadas](#tecnologias-utilizadas)
-* [Getting started](#getting-started)
+* [Getting started](#🌈-getting-started)
   * [Pré-requisitos](#pré-requisitos)
   * [Instalação](#instalação)
-* [Rotas da aplicação](#rotas-da-aplicação)
-* [Como contribuir?](#como-contribuir?)
-* [Licença](#licença)
-* [Contatos](#contatos)
-
+* [Rotas da aplicação](#🔥-rotas-da-aplicação)
+* [Como contribuir?](#🥰-como-contribuir?)
+* [Licença](#📕-licença)
+* [Contatos](#🕵-contatos)
 
 
 <!-- ABOUT THE PROJECT -->
@@ -188,7 +183,7 @@ Contribuir é o que faz a comunidade open source um lugar tão incrível para ap
 Distribuído sob licença MIT.
 
 <!-- CONTACT -->
-## Contatos
+## 🕵 Contatos
 
 Willian tavares - [https://www.linkedin.com/in/whateverwill](https://www.linkedin.com/in/whateverwill) - willianliketavares@gmail.com
 
