@@ -38,7 +38,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## 🚀 Sobre o projeto
+## :rocket: Sobre o projeto
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
@@ -55,7 +55,7 @@ Nesse aplicativo foram utilizadas as seguintes tecnologias
 * [Redis](https://redis.io/)
 
 <!-- GETTING STARTED -->
-## 🌈 Getting started
+## :rainbow: Getting started
 Para utilizar o projeto localmente basta seguir os seguintes passos.
 
 ### Pré-requisitos
@@ -130,7 +130,7 @@ REDIS_PASS=senha
 ]
 ```
 
-## 🔥 Rotas da aplicação
+## :fire: Rotas da aplicação
 
 * Users
 ```JS
@@ -168,7 +168,7 @@ GET appointments/me - Caso você seja um provedor, pega seus serviços agendados
 ```
 
 <!-- CONTRIBUTING -->
-## 🥰 Como contribuir?
+## :smiling_face_with_smiling_eyes_and_three_hearts: Como contribuir?
 
 Contribuir é o que faz a comunidade open source um lugar tão incrível para aprender, inspirar e criar. Qualquer contribuição é **apreciada**.
 
@@ -178,12 +178,12 @@ Contribuir é o que faz a comunidade open source um lugar tão incrível para ap
 4. Dê um push pra Branch (`git push origin feature/nova-feature`)
 5. Abra um Pull Request
 
-## 📕 Licença
+## :closed_book: Licença
 
 Distribuído sob licença MIT.
 
 <!-- CONTACT -->
-## 🕵 Contatos
+## :sleuth_or_spy: Contatos
 
 Willian tavares - [https://www.linkedin.com/in/whateverwill](https://www.linkedin.com/in/whateverwill) - willianliketavares@gmail.com
 
